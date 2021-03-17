@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu"
+    tools:context=".MenuDoa">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="25dp">
+
+            <ImageButton
+                android:id="@+id/btn_ortu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/button_ortu"/>
+
+            <ImageButton
+                android:id="@+id/btn_sebelum_makan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/button_sebelum_mkn"/>
+
+            <ImageButton
+                android:id="@+id/btn_sesudah_makan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/button_sesudah_mkn" />
+
+            <ImageButton
+                android:id="@+id/btn_belajar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/button_belajar" />
+
+            <ImageButton
+                android:id="@+id/btn_hujan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/button_hujan" />
+
+            <ImageButton
+                android:id="@+id/btn_kendaraan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/button_kendaraan" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <!--region Tombol Back-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_back_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/button_back"/>
+    </LinearLayout>
+    <!--endregion-->
+
+</RelativeLayout>
